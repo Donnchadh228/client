@@ -13,7 +13,7 @@ root.render(
     device: new DeviceStore(),
     basket:new BasketStore()
   }}>
-    <App1 />
+    <App />
   </Context.Provider>,
 )
 
