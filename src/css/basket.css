@@ -1,0 +1,88 @@
+
+.basket__items{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.basket__item{
+	position: relative;
+	margin-bottom: 50px;
+	flex-basis: 45%;
+	border-radius: 5px;
+	background: #2e314e;
+	height: 160px;
+
+	box-shadow: 0px 3px 10px #3340ab;
+}
+.basket__item img{
+	margin: 15px 0px 0px 10px;
+	border-radius: 40px;
+	width: 150px;
+	height: 130px;
+	
+	object-fit: cover;
+}
+.basket__item-block{
+	margin: 15px 0px 0px 10px;
+
+
+}
+.basket__item-name{
+	font-size: 25px;
+}
+.basket__item-name::first-letter{
+	text-transform: uppercase;
+}
+
+.basket__item-price{
+	margin: 10px 0px 10px 0px;
+}
+.basket__item-delete{
+	position: absolute;
+	cursor: pointer;
+	top: 0px;
+	right: 10px;
+	font-size: 30px;
+	transition: .5s transform;
+}
+.basket__item-delete:hover{
+	transition: .5s transform;
+	transform: scale(1.2,1.2);
+}
+.basket__item-count button{
+	background: none;
+	border: none;
+	margin-right: 30px;
+	width: 20px;
+	height: 10px;
+	color: white;
+	font-size: 30px;
+	cursor: pointer;
+	transition: .5s transform;
+}
+.basket__item-count button:hover{
+	transition: .5s transform;
+	transform: scale(1.2,1.2);
+}
+
+.button button{
+
+	background-color: #2e314e;
+	border: none;
+	flex-basis: 45%;
+	height: 70px;
+	border-radius: 10px;
+	cursor: pointer;
+	font-size: 30px;
+	color: white;
+
+	box-shadow: 0px 5px 10px #2e314e;
+	transition: .5s background,.5s box-shadow,.5s transform;
+
+}
+.button button:hover{
+	transition: .5s background,.5s box-shadow,.5s transform;
+	transform: translateY(-10px);
+	background: #3340ab;
+	box-shadow: 0px 5px 10px #3340ab;
+}

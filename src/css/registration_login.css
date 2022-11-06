@@ -1,0 +1,93 @@
+.reg_auth{
+	position: absolute;
+	z-index: 999999;
+	right: 38%;
+	width: 350px;
+	background-color: #2e314e;
+	padding: 50px 20px 40px 20px;
+	top: 230px;
+	border-radius: 20px;
+	box-shadow: 0px 10px 10px #23242d;
+	transform: scale(1.5, 1.5);
+	transition: .5s right;
+}
+h2{
+	margin-top: -30px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+.reg__auth-close{
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	cursor: pointer;
+	transition: .5s transform;
+	
+}
+
+.reg__auth-close:hover{
+	transition: .5s transform;
+	transform: scale(1.2,1.2);
+}
+.hidden{
+	transition: .5s right;
+	right: -500px;
+}
+.reg_auth div,.reg_auth button{
+	margin: auto;
+	text-align: center;
+}
+.reg_auth-email{
+
+}
+.reg_auth-password{
+	/* background: red; */
+	padding: 15px 0px 15px 0px
+}
+.reg_auth-error{
+	color: red;
+	font-size: 14px;
+}
+
+.reg_auth input{
+	width: 70%;
+	color: black;
+	padding: 2px;
+	border-radius: 4px;
+} 
+
+.reg_auth button{
+	width: 140px;
+	margin-top: 20px;
+	border: none;
+	color: black;
+	padding: 10px;
+	font-size: 16px;
+	cursor: pointer;
+	box-shadow: 0px 5px 10px #2e314e;
+	transition: .5s background,.5s box-shadow,.5s transform,.5s color;
+	border-radius: 10px;
+}
+
+.button button{
+
+	background-color: #2e314e;
+	border: none;
+	flex-basis: 45%;
+	height: 70px;
+	border-radius: 10px;
+	cursor: pointer;
+	font-size: 30px;
+	color: white;
+
+	box-shadow: 0px 5px 10px #2e314e;
+	transition: .5s background,.5s box-shadow,.5s transform;
+
+}
+.reg_auth button:hover{
+	transition: .5s background,.5s box-shadow,.5s transform,.5s color;
+	transform: translateY(-10px);
+	background: #3340ab;
+	color: white;
+	box-shadow: 0px 5px 10px #3340ab;
+}
